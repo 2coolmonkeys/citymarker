@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8307FF6317FEE3EF004C8B71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8307FF6117FEE3EF004C8B71 /* InfoPlist.strings */; };
+		8307FF6417FEE3EF004C8B71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8307FF6217FEE3EF004C8B71 /* main.m */; };
+		8307FF6717FEE3FE004C8B71 /* CitySDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8307FF6617FEE3FE004C8B71 /* CitySDKManager.m */; };
+		8307FF6A17FEE40F004C8B71 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8307FF6817FEE40F004C8B71 /* MapViewController.xib */; };
+		8307FF6B17FEE40F004C8B71 /* MarkerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8307FF6917FEE40F004C8B71 /* MarkerViewController.xib */; };
+		831F6F3217EB29D00097CD54 /* btninfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F6F2E17EB29D00097CD54 /* btninfo@2x.png */; };
+		831F6F3317EB29D00097CD54 /* btnmylocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F6F2F17EB29D00097CD54 /* btnmylocation@2x.png */; };
+		831F6F3417EB29D00097CD54 /* btnplus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F6F3017EB29D00097CD54 /* btnplus@2x.png */; };
+		831F6F3517EB29D00097CD54 /* btnshare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F6F3117EB29D00097CD54 /* btnshare@2x.png */; };
+		831F6F3717EB2D1D0097CD54 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F6F3617EB2D1D0097CD54 /* CoreMotion.framework */; };
+		831F6F3917EB30C50097CD54 /* citysdktrans@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F6F3817EB30C50097CD54 /* citysdktrans@2x.png */; };
+		831F6F3C17EB34030097CD54 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F6F3A17EB34030097CD54 /* icon.png */; };
+		831F6F3D17EB34030097CD54 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F6F3B17EB34030097CD54 /* icon@2x.png */; };
+		831F6F3F17EB34400097CD54 /* iconr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F6F3E17EB34400097CD54 /* iconr@2x.png */; };
+		831F6F4117EB4E5C0097CD54 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F6F4017EB4E5C0097CD54 /* MessageUI.framework */; };
+		8357060F17D3A186005ED760 /* CitySDKNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357060E17D3A186005ED760 /* CitySDKNode.m */; };
+		8357061417D6191B005ED760 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357061317D6191B005ED760 /* MBProgressHUD.m */; };
+		83847D8E17CDED7A00FF6F9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83847D8D17CDED7A00FF6F9E /* UIKit.framework */; };
+		83847D9017CDED7A00FF6F9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83847D8F17CDED7A00FF6F9E /* Foundation.framework */; };
+		83847D9217CDED7A00FF6F9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83847D9117CDED7A00FF6F9E /* CoreGraphics.framework */; };
+		83847DDB17CDEE2F00FF6F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83847DC617CDEE2F00FF6F9E /* AppDelegate.m */; };
+		83847DE017CDEE2F00FF6F9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83847DCF17CDEE2F00FF6F9E /* Default.png */; };
+		83847DE117CDEE2F00FF6F9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83847DD017CDEE2F00FF6F9E /* Default@2x.png */; };
+		83847DEE17CDEEBD00FF6F9E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83847DEC17CDEEBD00FF6F9E /* MapViewController.m */; };
+		83847DF117CE2AF900FF6F9E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83847DF017CE2AF900FF6F9E /* MapKit.framework */; };
+		83847DF317CE2B0400FF6F9E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83847DF217CE2B0400FF6F9E /* CoreLocation.framework */; };
+		83847DF817CE320000FF6F9E /* btninfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 83847DF417CE320000FF6F9E /* btninfo.png */; };
+		83847DF917CE320000FF6F9E /* btnmylocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 83847DF517CE320000FF6F9E /* btnmylocation.png */; };
+		83847DFA17CE320000FF6F9E /* btnplus.png in Resources */ = {isa = PBXBuildFile; fileRef = 83847DF617CE320000FF6F9E /* btnplus.png */; };
+		83847DFB17CE320000FF6F9E /* btnshare.png in Resources */ = {isa = PBXBuildFile; fileRef = 83847DF717CE320000FF6F9E /* btnshare.png */; };
+		83847DFD17CE32AB00FF6F9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83847DFC17CE32AB00FF6F9E /* QuartzCore.framework */; };
+		83847E0017CE34E800FF6F9E /* MarkerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83847DFF17CE34E800FF6F9E /* MarkerAnnotation.m */; };
+		83847E0417CE44C000FF6F9E /* MarkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83847E0217CE44C000FF6F9E /* MarkerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8307FF6117FEE3EF004C8B71 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = supportingfiles/InfoPlist.strings; sourceTree = "<group>"; };
+		8307FF6217FEE3EF004C8B71 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = supportingfiles/main.m; sourceTree = "<group>"; };
+		8307FF6517FEE3FE004C8B71 /* CitySDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySDKManager.h; sourceTree = "<group>"; };
+		8307FF6617FEE3FE004C8B71 /* CitySDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySDKManager.m; sourceTree = "<group>"; };
+		8307FF6817FEE40F004C8B71 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		8307FF6917FEE40F004C8B71 /* MarkerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerViewController.xib; sourceTree = "<group>"; };
+		831F6F2E17EB29D00097CD54 /* btninfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btninfo@2x.png"; sourceTree = "<group>"; };
+		831F6F2F17EB29D00097CD54 /* btnmylocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnmylocation@2x.png"; sourceTree = "<group>"; };
+		831F6F3017EB29D00097CD54 /* btnplus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnplus@2x.png"; sourceTree = "<group>"; };
+		831F6F3117EB29D00097CD54 /* btnshare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnshare@2x.png"; sourceTree = "<group>"; };
+		831F6F3617EB2D1D0097CD54 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		831F6F3817EB30C50097CD54 /* citysdktrans@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "citysdktrans@2x.png"; sourceTree = "<group>"; };
+		831F6F3A17EB34030097CD54 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		831F6F3B17EB34030097CD54 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		831F6F3E17EB34400097CD54 /* iconr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconr@2x.png"; sourceTree = "<group>"; };
+		831F6F4017EB4E5C0097CD54 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8357060D17D3A186005ED760 /* CitySDKNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySDKNode.h; sourceTree = "<group>"; };
+		8357060E17D3A186005ED760 /* CitySDKNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySDKNode.m; sourceTree = "<group>"; };
+		8357061217D6191B005ED760 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8357061317D6191B005ED760 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8360E24517D6765200C6609F /* dewaag.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = dewaag.gpx; path = CityMarker/resources/dewaag.gpx; sourceTree = "<group>"; };
+		83847D8A17CDED7A00FF6F9E /* CityMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83847D8D17CDED7A00FF6F9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83847D8F17CDED7A00FF6F9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83847D9117CDED7A00FF6F9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83847D9517CDED7A00FF6F9E /* CityMarker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CityMarker-Info.plist"; sourceTree = "<group>"; };
+		83847D9B17CDED7A00FF6F9E /* CityMarker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CityMarker-Prefix.pch"; sourceTree = "<group>"; };
+		83847DC517CDEE2F00FF6F9E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83847DC617CDEE2F00FF6F9E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83847DCE17CDEE2F00FF6F9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83847DCF17CDEE2F00FF6F9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83847DD017CDEE2F00FF6F9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83847DEB17CDEEBD00FF6F9E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		83847DEC17CDEEBD00FF6F9E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		83847DF017CE2AF900FF6F9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83847DF217CE2B0400FF6F9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		83847DF417CE320000FF6F9E /* btninfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btninfo.png; sourceTree = "<group>"; };
+		83847DF517CE320000FF6F9E /* btnmylocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnmylocation.png; sourceTree = "<group>"; };
+		83847DF617CE320000FF6F9E /* btnplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnplus.png; sourceTree = "<group>"; };
+		83847DF717CE320000FF6F9E /* btnshare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnshare.png; sourceTree = "<group>"; };
+		83847DFC17CE32AB00FF6F9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		83847DFE17CE34E800FF6F9E /* MarkerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerAnnotation.h; sourceTree = "<group>"; };
+		83847DFF17CE34E800FF6F9E /* MarkerAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerAnnotation.m; sourceTree = "<group>"; };
+		83847E0117CE44C000FF6F9E /* MarkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerViewController.h; sourceTree = "<group>"; };
+		83847E0217CE44C000FF6F9E /* MarkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83847D8717CDED7A00FF6F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831F6F4117EB4E5C0097CD54 /* MessageUI.framework in Frameworks */,
+				831F6F3717EB2D1D0097CD54 /* CoreMotion.framework in Frameworks */,
+				83847DFD17CE32AB00FF6F9E /* QuartzCore.framework in Frameworks */,
+				83847DF317CE2B0400FF6F9E /* CoreLocation.framework in Frameworks */,
+				83847DF117CE2AF900FF6F9E /* MapKit.framework in Frameworks */,
+				83847D8E17CDED7A00FF6F9E /* UIKit.framework in Frameworks */,
+				83847D9017CDED7A00FF6F9E /* Foundation.framework in Frameworks */,
+				83847D9217CDED7A00FF6F9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8357061017D6191B005ED760 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				8357061117D6191B005ED760 /* MBProgessHUD */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		8357061117D6191B005ED760 /* MBProgessHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8357061217D6191B005ED760 /* MBProgressHUD.h */,
+				8357061317D6191B005ED760 /* MBProgressHUD.m */,
+			);
+			path = MBProgessHUD;
+			sourceTree = "<group>";
+		};
+		83847D8117CDED7A00FF6F9E = {
+			isa = PBXGroup;
+			children = (
+				8360E24517D6765200C6609F /* dewaag.gpx */,
+				83847DFC17CE32AB00FF6F9E /* QuartzCore.framework */,
+				83847DF217CE2B0400FF6F9E /* CoreLocation.framework */,
+				83847DF017CE2AF900FF6F9E /* MapKit.framework */,
+				83847D9317CDED7A00FF6F9E /* CityMarker */,
+				83847D8C17CDED7A00FF6F9E /* Frameworks */,
+				83847D8B17CDED7A00FF6F9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83847D8B17CDED7A00FF6F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83847D8A17CDED7A00FF6F9E /* CityMarker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83847D8C17CDED7A00FF6F9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				831F6F4017EB4E5C0097CD54 /* MessageUI.framework */,
+				831F6F3617EB2D1D0097CD54 /* CoreMotion.framework */,
+				83847D8D17CDED7A00FF6F9E /* UIKit.framework */,
+				83847D8F17CDED7A00FF6F9E /* Foundation.framework */,
+				83847D9117CDED7A00FF6F9E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83847D9317CDED7A00FF6F9E /* CityMarker */ = {
+			isa = PBXGroup;
+			children = (
+				8357061017D6191B005ED760 /* external */,
+				83847DC417CDEE2F00FF6F9E /* control */,
+				83847DCC17CDEE2F00FF6F9E /* model */,
+				83847DCD17CDEE2F00FF6F9E /* resources */,
+				83847DD517CDEE2F00FF6F9E /* view */,
+				83847D9417CDED7A00FF6F9E /* Supporting Files */,
+			);
+			path = CityMarker;
+			sourceTree = "<group>";
+		};
+		83847D9417CDED7A00FF6F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8307FF6117FEE3EF004C8B71 /* InfoPlist.strings */,
+				8307FF6217FEE3EF004C8B71 /* main.m */,
+				83847D9517CDED7A00FF6F9E /* CityMarker-Info.plist */,
+				83847D9B17CDED7A00FF6F9E /* CityMarker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83847DC417CDEE2F00FF6F9E /* control */ = {
+			isa = PBXGroup;
+			children = (
+				83847DC517CDEE2F00FF6F9E /* AppDelegate.h */,
+				83847DC617CDEE2F00FF6F9E /* AppDelegate.m */,
+				83847DEB17CDEEBD00FF6F9E /* MapViewController.h */,
+				83847DEC17CDEEBD00FF6F9E /* MapViewController.m */,
+				83847E0117CE44C000FF6F9E /* MarkerViewController.h */,
+				83847E0217CE44C000FF6F9E /* MarkerViewController.m */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		83847DCC17CDEE2F00FF6F9E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8307FF6517FEE3FE004C8B71 /* CitySDKManager.h */,
+				8307FF6617FEE3FE004C8B71 /* CitySDKManager.m */,
+				8357060D17D3A186005ED760 /* CitySDKNode.h */,
+				8357060E17D3A186005ED760 /* CitySDKNode.m */,
+				83847DFE17CE34E800FF6F9E /* MarkerAnnotation.h */,
+				83847DFF17CE34E800FF6F9E /* MarkerAnnotation.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		83847DCD17CDEE2F00FF6F9E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				831F6F3E17EB34400097CD54 /* iconr@2x.png */,
+				831F6F3A17EB34030097CD54 /* icon.png */,
+				831F6F3B17EB34030097CD54 /* icon@2x.png */,
+				831F6F3817EB30C50097CD54 /* citysdktrans@2x.png */,
+				831F6F2E17EB29D00097CD54 /* btninfo@2x.png */,
+				831F6F2F17EB29D00097CD54 /* btnmylocation@2x.png */,
+				831F6F3017EB29D00097CD54 /* btnplus@2x.png */,
+				831F6F3117EB29D00097CD54 /* btnshare@2x.png */,
+				83847DF417CE320000FF6F9E /* btninfo.png */,
+				83847DF517CE320000FF6F9E /* btnmylocation.png */,
+				83847DF617CE320000FF6F9E /* btnplus.png */,
+				83847DF717CE320000FF6F9E /* btnshare.png */,
+				83847DCE17CDEE2F00FF6F9E /* Default-568h@2x.png */,
+				83847DCF17CDEE2F00FF6F9E /* Default.png */,
+				83847DD017CDEE2F00FF6F9E /* Default@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		83847DD517CDEE2F00FF6F9E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8307FF6817FEE40F004C8B71 /* MapViewController.xib */,
+				8307FF6917FEE40F004C8B71 /* MarkerViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83847D8917CDED7A00FF6F9E /* CityMarker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83847DC117CDED7A00FF6F9E /* Build configuration list for PBXNativeTarget "CityMarker" */;
+			buildPhases = (
+				83847D8617CDED7A00FF6F9E /* Sources */,
+				83847D8717CDED7A00FF6F9E /* Frameworks */,
+				83847D8817CDED7A00FF6F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityMarker;
+			productName = CityMarker;
+			productReference = 83847D8A17CDED7A00FF6F9E /* CityMarker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83847D8217CDED7A00FF6F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = 2CoolMonkeys;
+			};
+			buildConfigurationList = 83847D8517CDED7A00FF6F9E /* Build configuration list for PBXProject "CityMarker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83847D8117CDED7A00FF6F9E;
+			productRefGroup = 83847D8B17CDED7A00FF6F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83847D8917CDED7A00FF6F9E /* CityMarker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83847D8817CDED7A00FF6F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83847DE017CDEE2F00FF6F9E /* Default.png in Resources */,
+				83847DE117CDEE2F00FF6F9E /* Default@2x.png in Resources */,
+				831F6F3217EB29D00097CD54 /* btninfo@2x.png in Resources */,
+				8307FF6A17FEE40F004C8B71 /* MapViewController.xib in Resources */,
+				831F6F3517EB29D00097CD54 /* btnshare@2x.png in Resources */,
+				831F6F3417EB29D00097CD54 /* btnplus@2x.png in Resources */,
+				831F6F3F17EB34400097CD54 /* iconr@2x.png in Resources */,
+				8307FF6317FEE3EF004C8B71 /* InfoPlist.strings in Resources */,
+				83847DF817CE320000FF6F9E /* btninfo.png in Resources */,
+				831F6F3917EB30C50097CD54 /* citysdktrans@2x.png in Resources */,
+				83847DF917CE320000FF6F9E /* btnmylocation.png in Resources */,
+				83847DFA17CE320000FF6F9E /* btnplus.png in Resources */,
+				831F6F3317EB29D00097CD54 /* btnmylocation@2x.png in Resources */,
+				8307FF6B17FEE40F004C8B71 /* MarkerViewController.xib in Resources */,
+				831F6F3C17EB34030097CD54 /* icon.png in Resources */,
+				83847DFB17CE320000FF6F9E /* btnshare.png in Resources */,
+				831F6F3D17EB34030097CD54 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83847D8617CDED7A00FF6F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83847DDB17CDEE2F00FF6F9E /* AppDelegate.m in Sources */,
+				8307FF6717FEE3FE004C8B71 /* CitySDKManager.m in Sources */,
+				83847DEE17CDEEBD00FF6F9E /* MapViewController.m in Sources */,
+				83847E0017CE34E800FF6F9E /* MarkerAnnotation.m in Sources */,
+				83847E0417CE44C000FF6F9E /* MarkerViewController.m in Sources */,
+				8357060F17D3A186005ED760 /* CitySDKNode.m in Sources */,
+				8307FF6417FEE3EF004C8B71 /* main.m in Sources */,
+				8357061417D6191B005ED760 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83847DBF17CDED7A00FF6F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83847DC017CDED7A00FF6F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83847DC217CDED7A00FF6F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CityMarker/CityMarker-Prefix.pch";
+				INFOPLIST_FILE = "CityMarker/CityMarker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83847DC317CDED7A00FF6F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CityMarker/CityMarker-Prefix.pch";
+				INFOPLIST_FILE = "CityMarker/CityMarker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83847D8517CDED7A00FF6F9E /* Build configuration list for PBXProject "CityMarker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83847DBF17CDED7A00FF6F9E /* Debug */,
+				83847DC017CDED7A00FF6F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83847DC117CDED7A00FF6F9E /* Build configuration list for PBXNativeTarget "CityMarker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83847DC217CDED7A00FF6F9E /* Debug */,
+				83847DC317CDED7A00FF6F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83847D8217CDED7A00FF6F9E /* Project object */;
+}
