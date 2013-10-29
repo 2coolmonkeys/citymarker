@@ -112,3 +112,20 @@ Check [this](http://citysdk.waag.org/data) for available data.
  Check [this](http://citysdk.waag.org/api-read) for reading data, parameters and return formats.
  
  Check  [this](http://citysdk.waag.org/api-write) for writing data, parameters and return formats.
+
+
+Screenshots
+=
+![image](https://raw.github.com/2coolmonkeys/citymarker/master/screenshots/IOSapp1.png)
+
+![image](https://raw.github.com/2coolmonkeys/citymarker/master/screenshots/IOSapp2.png)
+
+![image](https://raw.github.com/2coolmonkeys/citymarker/master/screenshots/IOSapp3.png)
+
+![image](https://raw.github.com/2coolmonkeys/citymarker/master/screenshots/IOSapp4.png)
+
+![image](https://raw.github.com/2coolmonkeys/citymarker/master/screenshots/IOSapp5.png)
+
+![image](https://raw.github.com/2coolmonkeys/citymarker/master/screenshots/IOSapp6.png)
+
+
